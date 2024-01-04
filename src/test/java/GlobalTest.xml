@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Test Suite" verbose="5" thread-count="1" parallel = "tests">
+    <test name="ENTRADA-REGISTRO DRAFT">
+        <classes>
+            <class name ="Test.TestSuiteIngresoRegDra"> </class>
+        </classes>
+    </test>
+    <test name="ENTRADA-EVALUACION DOCUMENTARIA">
+        <classes>
+            <class name ="Test.TestSuiteAforoSolEva"> </class>
+        </classes>
+    </test>
+</suite>
